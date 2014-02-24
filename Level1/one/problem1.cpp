@@ -17,12 +17,11 @@
 #include <iostream>
 #include <cmath>
 
+#pragma 
+
 int main( int argc, char** argv)
 {
-    std::cout << "In what range shall we check sir? ";
-    int range;
-    std::cin >> range;
-    std::cout << std::endl << "Aye aye Captain, running through ranges 0 to " << range <<"." << std::endl;
+    int range = 1000;
 
     int counter = 0;
     int sum=0;
